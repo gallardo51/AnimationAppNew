@@ -19,6 +19,7 @@
 		BAC9F4C82BA1E8D1000848E2 /* SpringAnimation in Frameworks */ = {isa = PBXBuildFile; productRef = BAC9F4C72BA1E8D1000848E2 /* SpringAnimation */; };
 		BAC9F4CA2BA1E8F2000848E2 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC9F4C92BA1E8F2000848E2 /* Model.swift */; };
 		BAC9F4CD2BA1E935000848E2 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC9F4CC2BA1E935000848E2 /* DataManager.swift */; };
+		BAC9F4D02BA212F7000848E2 /* Extension + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC9F4CF2BA212F7000848E2 /* Extension + UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		BAC9F4B42BA1E629000848E2 /* AnimationAppNewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationAppNewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BAC9F4C92BA1E8F2000848E2 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		BAC9F4CC2BA1E935000848E2 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		BAC9F4CF2BA212F7000848E2 /* Extension + UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				BAC9F4C22BA1E67F000848E2 /* ViewControllers */,
 				BAC9F4CB2BA1E903000848E2 /* Models */,
 				BAC9F4CE2BA1E93C000848E2 /* Services */,
+				BAC9F4D12BA212FF000848E2 /* Extensions */,
 				BAC9F4C12BA1E665000848E2 /* App */,
 				BAC9F4C32BA1E69C000848E2 /* Storyboards */,
 				BAC9F4C42BA1E6AB000848E2 /* Resources */,
@@ -181,6 +184,14 @@
 				BAC9F4CC2BA1E935000848E2 /* DataManager.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		BAC9F4D12BA212FF000848E2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BAC9F4CF2BA212F7000848E2 /* Extension + UIView.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +333,7 @@
 			files = (
 				BAC9F4962BA1E628000848E2 /* ViewController.swift in Sources */,
 				BAC9F4CD2BA1E935000848E2 /* DataManager.swift in Sources */,
+				BAC9F4D02BA212F7000848E2 /* Extension + UIView.swift in Sources */,
 				BAC9F4922BA1E628000848E2 /* AppDelegate.swift in Sources */,
 				BAC9F4942BA1E628000848E2 /* SceneDelegate.swift in Sources */,
 				BAC9F4CA2BA1E8F2000848E2 /* Model.swift in Sources */,

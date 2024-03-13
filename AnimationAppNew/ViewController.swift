@@ -9,10 +9,23 @@ import UIKit
 import SpringAnimation
 
 class ViewController: UIViewController {
+    
+    private let firstColor = UIColor(
+        red: 140/255,
+        green: 120/255,
+        blue: 260/255,
+        alpha: 1)
+
+    private let secondColor = UIColor(
+        red: 180/255,
+        green: 100/255,
+        blue: 160/255,
+        alpha: 1)
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.addVerticalGradientLayer(topColor: firstColor, bottomColor: secondColor)
     }
 
 
