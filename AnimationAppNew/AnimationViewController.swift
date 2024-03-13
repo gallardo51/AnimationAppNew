@@ -8,7 +8,15 @@
 import UIKit
 import SpringAnimation
 
-class ViewController: UIViewController {
+class AnimationViewController: UIViewController {
+    
+    @IBOutlet weak var animationView: SpringView! {
+        didSet {
+            animationView.layer.cornerRadius = animationView.frame.width / 2
+        }
+    }
+    
+    @IBOutlet weak var descriptionLabel: UILabel!
     
     private let firstColor = UIColor(
         red: 140/255,
@@ -28,6 +36,9 @@ class ViewController: UIViewController {
         view.addVerticalGradientLayer(topColor: firstColor, bottomColor: secondColor)
     }
 
-
+    @IBAction func runButtonPressed(_ sender: UIButton) {
+    }
+    
+    
 }
 
