@@ -16,10 +16,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7qL-ER-sgT">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7qL-ER-sgT" customClass="SpringView" customModule="SpringAnimation">
                                 <rect key="frame" x="96.666666666666686" y="159" width="200" height="200"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2F5-1p-dAc">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2F5-1p-dAc" customClass="SpringLabel" customModule="SpringAnimation">
                                         <rect key="frame" x="28" y="38" width="144" height="20.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -47,7 +47,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="runButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="goh-zg-HGl"/>
+                                    <action selector="runButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="su1-hx-aAx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -62,8 +62,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="animationView" destination="7qL-ER-sgT" id="74N-Mr-VpE"/>
-                        <outlet property="descriptionLabel" destination="2F5-1p-dAc" id="Xyx-at-msq"/>
+                        <outlet property="animationView" destination="7qL-ER-sgT" id="RNb-wX-2xA"/>
+                        <outlet property="descriptionLabel" destination="2F5-1p-dAc" id="AJC-43-bsc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -7,39 +7,11 @@
 
 import SpringAnimation
 
-class DataManager {
+final class DataManager {
     
     static let shared = DataManager()
     
-    let animations: [AnimationPreset] = [
-        .fadeIn,
-        .fadeInDown,
-        .fadeInLeft,
-        .fadeInRight,
-        .fadeInUp,
-        .fadeOut,
-        .fadeOutIn,
-        .fall,
-        .flash,
-        .flipX,
-        .flipY,
-        .morph,
-        .pop,
-        .shake,
-        .slideDown,
-        .slideLeft,
-        .slideRight,
-        .slideUp,
-        .squeeze,
-        .squeezeDown,
-        .squeezeLeft,
-        .slideRight,
-        .squeezeUp,
-        .swing,
-        .wobble,
-        .zoomIn,
-        .zoomOut
-    ]
+    let animations = AnimationPreset.allCases
     
     let curves = AnimationCurve.allCases
     

@@ -5,7 +5,7 @@
 //  Created by Александр Соболев on 13.03.2024.
 //
 
-struct Animation {
+struct Animation: CustomStringConvertible {
     
     let name: String
     let curve: String
@@ -16,12 +16,12 @@ struct Animation {
     """
     present: \(name)
     curve: \(curve)
-    force: \(String(format: "%2f", force))
-    delay: \(String(format: "%2f", delay))
+    force: \(String(format: "%.02f", force))
+    delay: \(String(format: "%.02f", delay))
     """
     }
     
-    static func getRandomAnimation() -> Animation {
+    static var getRandomAnimation: Animation {
         Animation(
             name: DataManager.shared.animations.randomElement()?.rawValue ?? "slideLeft",
             curve: DataManager.shared.curves.randomElement()?.rawValue ?? "easeIn",
